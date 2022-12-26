@@ -4,6 +4,10 @@
 
 @layer components {
   .icons {
-    @apply h-10 w-10;
+    @apply h-14 w-14 group-hover:rounded-full px-3;
   }
+}
+
+body {
+  background-color: #1d9bf0;
 }
